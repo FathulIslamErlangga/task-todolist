@@ -11,7 +11,6 @@ type IToDo = {
 const CardList: React.FC<IToDo> = ({
   task,
   complate,
-  totalTaskCom,
   hendleComplate,
   hendleDelete,
 }: IToDo) => {
